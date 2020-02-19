@@ -1,0 +1,130 @@
+.header {
+  height: 120px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ManLookingAtBlackSquare {
+  height: 570px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.Man {
+  background-image: url(../page/img/PhilipMartin.png);
+  height: 100%;
+  width: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Square {
+  background-color: black;
+  height: 100%;
+  width: 50%;
+}
+
+.InsideBlackSqure {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 10%;
+  margin-top: 15%;
+}
+
+.InsideBlackSqure__Here2Divs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.InsideBlackSqure__Date {
+  color: #FFFFFF;
+}
+
+.InsideBlackSqure__LifeStyle {
+  color: #FFFFFF;
+}
+
+.InsideBlackSqure__AtVero {
+  color: #FFFFFF;
+}
+
+.InsideBlackSqure__Odio {
+  color: #FFFFFF;
+}
+
+.InsideBlackSqure__ReadMore {
+  color: #FFFFFF;
+}
+
+.ThreeImages {
+  height: 363px;
+  width: 240px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.ThreeImages__YellowGirl {
+  height: 363px;
+  width: 240px;
+}
+
+.ThreeImages__YellowGirl__img1 {
+  background-image: url(/img/img-1.png);
+  background-size: cover;
+}
+
+.ThreeImages__WhiteAndBlack {
+  height: 363px;
+  width: 240px;
+}
+
+.ThreeImages__WhiteAndBlack__img2 {
+  background-image: url(/img/img-2.png);
+  background-size: cover;
+}
+
+.ThreeImages__Color {
+  height: 363px;
+  width: 240px;
+}
+
+.ThreeImages__Color__img3 {
+  background-image: url(/img/img-3.png);
+  background-size: cover;
+}
+/*# sourceMappingURL=style.css.map */

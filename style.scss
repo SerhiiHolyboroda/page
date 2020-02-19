@@ -1,0 +1,104 @@
+$White: #FFFFFF ;
+.header{
+    height: 120px;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.ManLookingAtBlackSquare{
+   height: 570px;
+   width: 100%;
+   display: flex;
+    flex-direction: row;
+    margin-left:2px ;
+    margin-right:2px ;
+}
+.Man{
+background-image: url(../page/img/PhilipMartin.png);
+height: 100%;
+width: 50%;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.Square{
+background-color: black;
+height: 100%;
+width: 50%;
+ 
+ 
+ 
+}
+.InsideBlackSqure{
+     
+    display: flex;
+flex-direction: column;
+ margin-left: 10%;
+ margin-top: 15%;
+&__Here2Divs{
+    display: flex;
+    flex-direction: row;
+     
+     
+}
+&__Date{
+    color:$White;
+ 
+}
+&__LifeStyle{
+    color:$White;
+ 
+}
+&__AtVero{
+    color:$White;
+}
+&__Odio{
+    color:$White;
+}
+&__ReadMore{
+    color:$White;
+}
+}
+.Featured{
+    height: 200px;
+    width: 200px;
+&__Man1{
+    height: 200px;
+    width: 200px;
+    background-image: url(../page/img/photo-1453396450673-3fe83d2db2c4.png)
+}
+
+}
+.ThreeImages{
+     height: 363px;
+        width: 240px;
+    display: flex;
+    flex-direction: row;
+    &__YellowGirl{
+        height: 363px;
+        width: 240px;
+        &__img1{ 
+        // background-image: url(../page/img/img-1.png);
+        background-size: cover;
+        
+    }
+    }
+    &__WhiteAndBlack{
+        height: 363px;
+        width: 240px;
+        // &__img2{ 
+        // background-image: url(/img/img-2.png);
+        background-size: cover;
+    }
+}
+    &__Color{
+        height: 363px;
+        width: 240px;
+        &__img3{ 
+        // background-image: url(/img/img-3.png);
+        background-size: cover;
+    }
+}
+ 
+ 
