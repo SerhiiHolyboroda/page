@@ -1,11 +1,30 @@
 $White: #FFFFFF ;
+$ImagesHeight: 240px;
+$ImageWidth:363px;
+
+$ImagesHeight2: 368px;
+$ImageWidth2:557px;
+$mRright: 23px;
+@font-face {
+    font-family: Kanit-Medium;
+    src: url(../page/fonts/Kanit/Kanit-Medium.ttf);
+}
+@font-face {
+    font-family: Kanit-Light;
+    src: url(../page/fonts/Kanit/Kanit-Light.ttf);
+}
+ 
 .header{
-    height: 120px;
-    width:100%;
+   width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    height: 124px;
+    &__img{
+        height: 30px;
+        width: 157px;
+    }
 }
 .ManLookingAtBlackSquare{
    height: 570px;
@@ -16,22 +35,23 @@ $White: #FFFFFF ;
     margin-right:2px ;
 }
 .Man{
-background-image: url(../page/img/PhilipMartin.png);
-height: 100%;
+ background-image: url(../page/img/PhilipMartin.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+height: 570px;
 width: 50%;
-background-repeat: no-repeat;
-background-size: cover;
+ 
 }
 .Square{
 background-color: black;
-height: 100%;
+height: 570px;
 width: 50%;
  
  
  
 }
 .InsideBlackSqure{
-     
+  
     display: flex;
 flex-direction: column;
  margin-left: 10%;
@@ -39,66 +59,192 @@ flex-direction: column;
 &__Here2Divs{
     display: flex;
     flex-direction: row;
-     
-     
-}
+     justify-content: center;
+     }
 &__Date{
     color:$White;
- 
+    font-family: Kanit-Medium;
+    font-size: 14px;
+    letter-spacing: 7px;
+    margin-right: 30%;
+
 }
 &__LifeStyle{
     color:$White;
- 
+    font-family: Kanit-Medium;
+    font-size: 16px;
 }
 &__AtVero{
     color:$White;
+    font-family: Kanit-Medium;
+    font-size: 28px;
 }
 &__Odio{
     color:$White;
+    font-family: Kanit-Light;
+    font-size: 14px;
 }
 &__ReadMore{
+    padding: 10px 10px 10px 10px;
     color:$White;
+    font-size: 12px;
+    border: 1px solid $White;
+    padding-left: 5%;
+    margin-right: 80%;
 }
 }
 .Featured{
-    height: 200px;
-    width: 200px;
+display: flex;
+flex-direction: row;
+   justify-content: center;
+   margin: 10% 10% 10% 10%;
+   margin-left: 171px;
+   margin-right: 171px;
 &__Man1{
-    height: 200px;
-    width: 200px;
-    background-image: url(../page/img/photo-1453396450673-3fe83d2db2c4.png)
+    font-family: Kanit;
+    height: $ImagesHeight2;
+    width: $ImageWidth2;
+    margin-right: 26px;
+     &__MediumLorem{
+         font-family: Kanit-Medium;
+         font-size: 24px;
+     }
+     &__Light{
+        font-family: Kanit-Light;
+        font-size: 18px;
+    }
+     
 }
-
+&__Man2{
+    height: $ImagesHeight2;
+    width: $ImageWidth2;
+    &__MediumLorem{
+        font-family: Kanit-Medium;
+        font-size: 24px;
+      
+    }
+    &__Light{
+        font-family: Kanit-Light;
+        font-size: 18px;
+    }
+     
+ 
 }
 .ThreeImages{
-     height: 363px;
-        width: 240px;
+      
     display: flex;
     flex-direction: row;
+    justify-content: center;
     &__YellowGirl{
-        height: 363px;
-        width: 240px;
-        &__img1{ 
-        // background-image: url(../page/img/img-1.png);
-        background-size: cover;
+        height: $ImagesHeight ;
+        width: $ImageWidth;
+      margin-right:$mRright;
         
     }
-    }
     &__WhiteAndBlack{
-        height: 363px;
-        width: 240px;
-        // &__img2{ 
-        // background-image: url(/img/img-2.png);
-        background-size: cover;
+        height: $ImagesHeight ;
+        width: $ImageWidth;
+      
+        margin-right: $mRright;
     }
-}
+ 
     &__Color{
-        height: 363px;
-        width: 240px;
-        &__img3{ 
-        // background-image: url(/img/img-3.png);
-        background-size: cover;
-    }
+        height: $ImagesHeight ;
+        width: $ImageWidth;
+   
 }
+}
+.MagazineAndBlackSquare{
+    display: flex;
+flex-direction: row;
+   justify-content: center;
+   margin: 10% 10% 10% 10%;
  
+&__MagazineB{
+    height: $ImagesHeight2;
+    width: $ImageWidth2;
+     
+}
+    &__SquareB{
+        
+        height: $ImagesHeight2;
+         width: $ImageWidth2;
+        
+    }
+
+}
+
+
+
+.interviews{
+      
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+     &__Photo{
+        margin-right: $mRright;
+     }
+
+     &__ManAndDog{
+        margin-right: $mRright;
+     }
+
+     &__Girl{
+         
+     }
+}
+
+
+.News{
+      
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    &__Microphone{
+        margin-right: $mRright;
+     }
  
+&__Hand{
+    margin-right: $mRright;
+ }
+ 
+&__Magazines{
+    
+ }
+ 
+}
+
+
+// Here goes style of text
+.p10p10p20{
+font-family:Kanit-Medium;
+font-size:  12px;
+letter-spacing: 6px;
+}
+.smallInterwies{
+    font-family:Kanit-Medium;
+    font-size:  12px;
+}
+.atVero{
+    font-family:Kanit-Medium;
+    font-size:  18px;
+}
+.divToPoseText{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+  }
+.Suffix{
+    width: 100%;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     height: 124px;
+     background-color: black;
+     &__img{
+         height: 30px;
+         width: 157px;
+     }
+    }

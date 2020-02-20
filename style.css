@@ -1,5 +1,14 @@
+@font-face {
+  font-family: Kanit-Medium;
+  src: url(../page/fonts/Kanit/Kanit-Medium.ttf);
+}
+
+@font-face {
+  font-family: Kanit-Light;
+  src: url(../page/fonts/Kanit/Kanit-Light.ttf);
+}
+
 .header {
-  height: 120px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -14,6 +23,12 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: 124px;
+}
+
+.header__img {
+  height: 30px;
+  width: 157px;
 }
 
 .ManLookingAtBlackSquare {
@@ -32,15 +47,15 @@
 
 .Man {
   background-image: url(../page/img/PhilipMartin.png);
-  height: 100%;
-  width: 50%;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 570px;
+  width: 50%;
 }
 
 .Square {
   background-color: black;
-  height: 100%;
+  height: 570px;
   width: 50%;
 }
 
@@ -64,31 +79,47 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .InsideBlackSqure__Date {
   color: #FFFFFF;
+  font-family: Kanit-Medium;
+  font-size: 14px;
+  letter-spacing: 7px;
+  margin-right: 30%;
 }
 
 .InsideBlackSqure__LifeStyle {
   color: #FFFFFF;
+  font-family: Kanit-Medium;
+  font-size: 16px;
 }
 
 .InsideBlackSqure__AtVero {
   color: #FFFFFF;
+  font-family: Kanit-Medium;
+  font-size: 28px;
 }
 
 .InsideBlackSqure__Odio {
   color: #FFFFFF;
+  font-family: Kanit-Light;
+  font-size: 14px;
 }
 
 .InsideBlackSqure__ReadMore {
+  padding: 10px 10px 10px 10px;
   color: #FFFFFF;
+  font-size: 12px;
+  border: 1px solid #FFFFFF;
+  padding-left: 5%;
+  margin-right: 80%;
 }
 
-.ThreeImages {
-  height: 363px;
-  width: 240px;
+.Featured {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -96,35 +127,158 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10% 10% 10% 10%;
+  margin-left: 171px;
+  margin-right: 171px;
+}
+
+.Featured__Man1 {
+  font-family: Kanit;
+  height: 368px;
+  width: 557px;
+  margin-right: 26px;
+}
+
+.Featured__Man1__MediumLorem {
+  font-family: Kanit-Medium;
+  font-size: 24px;
+}
+
+.Featured__Man2 {
+  height: 368px;
+  width: 557px;
+}
+
+.Featured__Man2__MediumLorem {
+  font-family: Kanit-Medium;
+  font-size: 24px;
+}
+
+.ThreeImages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .ThreeImages__YellowGirl {
-  height: 363px;
-  width: 240px;
-}
-
-.ThreeImages__YellowGirl__img1 {
-  background-image: url(/img/img-1.png);
-  background-size: cover;
+  height: 240px;
+  width: 363px;
+  margin-right: 23px;
 }
 
 .ThreeImages__WhiteAndBlack {
-  height: 363px;
-  width: 240px;
-}
-
-.ThreeImages__WhiteAndBlack__img2 {
-  background-image: url(/img/img-2.png);
-  background-size: cover;
+  height: 240px;
+  width: 363px;
+  margin-right: 23px;
 }
 
 .ThreeImages__Color {
-  height: 363px;
-  width: 240px;
+  height: 240px;
+  width: 363px;
 }
 
-.ThreeImages__Color__img3 {
-  background-image: url(/img/img-3.png);
-  background-size: cover;
+.MagazineAndBlackSquare {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10% 10% 10% 10%;
+}
+
+.MagazineAndBlackSquare__MagazineB {
+  height: 368px;
+  width: 557px;
+}
+
+.MagazineAndBlackSquare__SquareB {
+  height: 368px;
+  width: 557px;
+}
+
+.interviews {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.interviews__Photo {
+  margin-right: 23px;
+}
+
+.interviews__ManAndDog {
+  margin-right: 23px;
+}
+
+.News {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.News__Microphone {
+  margin-right: 23px;
+}
+
+.News__Hand {
+  margin-right: 23px;
+}
+
+.p10p10p20 {
+  font-family: Kanit-Medium;
+  font-size: 12px;
+  letter-spacing: 6px;
+}
+
+.smallInterwies {
+  font-family: Kanit-Medium;
+  font-size: 12px;
+}
+
+.atVero {
+  font-family: Kanit-Medium;
+  font-size: 18px;
+}
+
+.divToPoseText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 /*# sourceMappingURL=style.css.map */
