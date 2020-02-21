@@ -45,7 +45,7 @@
   margin-right: 2px;
 }
 
-.Man {
+.ManLookingAtBlackSquare .Man {
   background-image: url(../page/img/PhilipMartin.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -53,13 +53,15 @@
   width: 50%;
 }
 
-.Square {
+.ManLookingAtBlackSquare .Square {
   background-color: black;
   height: 570px;
   width: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.InsideBlackSqure {
+.ManLookingAtBlackSquare .InsideBlackSqure {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -67,11 +69,13 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-left: 10%;
-  margin-top: 15%;
+  margin-left: 103px;
+  margin-right: 108px;
+  margin-top: 127px;
+  margin-bottom: 124px;
 }
 
-.InsideBlackSqure__Here2Divs {
+.ManLookingAtBlackSquare .InsideBlackSqure__Here2Divs {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -79,39 +83,40 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 38px;
 }
 
-.InsideBlackSqure__Date {
+.ManLookingAtBlackSquare .InsideBlackSqure__Date {
   color: #FFFFFF;
   font-family: Kanit-Medium;
   font-size: 14px;
   letter-spacing: 7px;
-  margin-right: 30%;
 }
 
-.InsideBlackSqure__LifeStyle {
+.ManLookingAtBlackSquare .InsideBlackSqure__LifeStyle {
   color: #FFFFFF;
   font-family: Kanit-Medium;
   font-size: 16px;
 }
 
-.InsideBlackSqure__AtVero {
+.ManLookingAtBlackSquare .InsideBlackSqure__AtVero {
   color: #FFFFFF;
   font-family: Kanit-Medium;
   font-size: 28px;
 }
 
-.InsideBlackSqure__Odio {
+.ManLookingAtBlackSquare .InsideBlackSqure__Odio {
+  margin-top: 33px;
   color: #FFFFFF;
   font-family: Kanit-Light;
   font-size: 14px;
 }
 
-.InsideBlackSqure__ReadMore {
-  padding: 10px 10px 10px 10px;
+.ManLookingAtBlackSquare .InsideBlackSqure__ReadMore {
+  margin-top: 35px;
   color: #FFFFFF;
   font-size: 12px;
   border: 1px solid #FFFFFF;
@@ -120,6 +125,7 @@
 }
 
 .Featured {
+  margin-top: 106px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -130,7 +136,6 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 10% 10% 10% 10%;
   margin-left: 171px;
   margin-right: 171px;
 }
@@ -168,6 +173,7 @@
 }
 
 .ThreeImages {
+  margin-top: 58px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -317,6 +323,8 @@
 }
 
 .seeall {
+  font-family: Kanit-Medium;
+  font-weight: 14px;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -335,8 +343,9 @@
   margin-top: 59px;
 }
 
-@media screen and (max-width: 768px) and (min-width: 480px) {
+@media screen and (max-width: 480px) {
   .ManLookingAtBlackSquare {
+    width: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
