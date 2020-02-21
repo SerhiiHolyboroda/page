@@ -100,6 +100,8 @@ flex-direction: row;
    margin: 10% 10% 10% 10%;
    margin-left: 171px;
    margin-right: 171px;
+    
+   
 &__Man1{
     font-family: Kanit;
     height: $ImagesHeight2;
@@ -130,8 +132,9 @@ flex-direction: row;
      
  
 }
+}
 .ThreeImages{
-      
+       
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -246,5 +249,73 @@ letter-spacing: 6px;
      &__img{
          height: 30px;
          width: 157px;
+     }
+    }
+    .seeall{
+        margin: 0 auto;
+        display: flex;
+        height: 42px;
+        width: 238px;
+        color: $White;
+        background-color: black;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 86px;
+        margin-top: 59px;
+    }
+
+
+    @media screen and  (max-width: 1200px) and (min-width: 970px) {
+        .InsideBlackSqure{
+   
+        &__Here2Divs{
+          
+             }
+        &__Date{
+            
+        
+        }
+        &__LifeStyle{
+            
+        }
+        &__AtVero{
+          
+        }
+        &__Odio{
+          
+        }
+        &__ReadMore{
+          
+        }
+        }
+    }
+
+    @media screen and  (max-width: 970px) and (min-width: 768px) {
+
+
+    }
+
+ @media screen and  (max-width:768px) and (min-width:  480px) {
+
+    .ManLookingAtBlackSquare{
+         
+        
+         flex-direction:column;
+         .Man{
+            height: 50%;
+           width: 100%;
+            
+           }
+           .Square{
+            height: 50%;
+           width: 100%;
+            
+            
+            
+           }
+     }
+     .Featured{
+        
+        flex-direction:column;
      }
     }
