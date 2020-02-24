@@ -70,9 +70,6 @@
       -ms-flex-direction: column;
           flex-direction: column;
   margin-left: 103px;
-  margin-right: 108px;
-  margin-top: 127px;
-  margin-bottom: 124px;
 }
 
 .ManLookingAtBlackSquare .InsideBlackSqure__Here2Divs {
@@ -121,7 +118,6 @@
   font-size: 12px;
   border: 1px solid #FFFFFF;
   padding-left: 5%;
-  margin-right: 80%;
 }
 
 .Featured {
@@ -173,7 +169,8 @@
 }
 
 .ThreeImages {
-  margin-top: 58px;
+  margin-top: 277px;
+  margin-bottom: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -225,6 +222,14 @@
 .MagazineAndBlackSquare__SquareB {
   height: 368px;
   width: 557px;
+}
+
+.MagazineAndBlackSquare__SquareB__Issue22 {
+  color: #FFFFFF;
+}
+
+.MagazineAndBlackSquare__SquareB__Subscribe {
+  color: #FFFFFF;
 }
 
 .interviews {

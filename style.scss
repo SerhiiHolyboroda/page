@@ -13,7 +13,11 @@ $mRright: 23px;
     font-family: Kanit-Light;
     src: url(../page/fonts/Kanit/Kanit-Light.ttf);
 }
- 
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
 .header{
    width: 100%;
     display: flex;
@@ -54,9 +58,9 @@ background-size: cover;
     display: flex;
 flex-direction: column;
  margin-left: 103px;
- margin-right: 108px;
- margin-top: 127px;
- margin-bottom: 124px;
+// //  margin-right: 108px;
+//  margin-top: 127px;
+//  margin-bottom: 124px;
 &__Here2Divs{
     display: flex;
     flex-direction: row;
@@ -93,13 +97,13 @@ flex-direction: column;
     font-size: 12px;
     border: 1px solid $White;
     padding-left: 5%;
-    margin-right: 80%;
+  
 }
 }
 }
 .Featured{
     margin-top: 106px;
-    
+    // margin-bottom: 106px;
 display: flex;
 flex-direction: row;
    justify-content: center;
@@ -140,7 +144,9 @@ flex-direction: row;
 }
 }
 .ThreeImages{
-    margin-top: 58px;
+    // fix this shit
+    margin-top: 277px;
+    margin-bottom: 15px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -179,6 +185,12 @@ flex-direction: row;
         height: $ImagesHeight2;
          width: $ImageWidth2;
         
+         &__Issue22{
+color: $White;
+         }
+         &__Subscribe{
+            color: $White;
+         }
     }
 
 }
