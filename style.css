@@ -1,11 +1,18 @@
 @font-face {
   font-family: Kanit-Medium;
-  src: url(../page/fonts/Kanit/Kanit-Medium.ttf);
+  src: url(/page/fonts/Kanit/Kanit-Medium.ttf);
 }
 
 @font-face {
   font-family: Kanit-Light;
-  src: url(../page/fonts/Kanit/Kanit-Light.ttf);
+  src: url(/page/fonts/Kanit/Kanit-Light.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .header {
@@ -46,7 +53,7 @@
 }
 
 .ManLookingAtBlackSquare .Man {
-  background-image: url(../page/img/PhilipMartin.png);
+  background-image: url(/page/img/PhilipMartin.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 570px;
@@ -170,7 +177,7 @@
 
 .ThreeImages {
   margin-top: 277px;
-  margin-bottom: 15px;
+  margin-bottom: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
